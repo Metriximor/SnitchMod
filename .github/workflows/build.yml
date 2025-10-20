@@ -21,7 +21,7 @@ jobs:
           path: dist/*-forge.jar
 
       - name: Upload Fabric Build
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Fabric
           path: dist/*-fabric.jar
