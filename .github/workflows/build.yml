@@ -27,7 +27,7 @@ jobs:
           path: dist/*-fabric.jar
 
       - name: Upload Neoforge Build
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Neoforge
           path: dist/*-neoforge.jar
